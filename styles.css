@@ -3,7 +3,7 @@ html, body {
     margin: 0px;
 }
 
-                                        /* Navigation Bar */
+/* --------------- Navigation Bar --------------- */
 
 .navBarDiv {
     width: 100%;
@@ -37,7 +37,7 @@ html, body {
     left: 310px;
 }
 
-                                        /* Drop Downs */
+/* --------------- Drop Downs --------------- */
 
 .dropDown:hover li a {
     color: #0094FF;
@@ -74,7 +74,35 @@ html, body {
     display: block;
 }
 
-                                        /* Body */
+/* --------------- Body --------------- */
+
+/* --------------- Every Page --------------- */
+
+.coloredLeftLine {
+    color: #0094FF;
+}
+.bodyH1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 3em;
+    color: #333333;
+}
+.bodyP {
+    width: 35%;
+    margin: auto;
+    font-size: 18px;
+    color: #222222;
+    font-family: sans-serif;
+    text-align: center;
+}
+.centeredVideo {
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* --------------- This Page --------------- */
 
 .homePageCaption {
     width: 500px;
@@ -92,31 +120,4 @@ html, body {
 .homePageCaption p {
     font-family: sans-serif;
     line-height: 1.5;
-}
-.captionLogo {
-    position: absolute;
-    height: 300px;
-    right: 150px;
-    top: 130px;
-}
-.bodyH1 {
-    font-family: monospace;
-    text-align: center;
-    font-size: 3em;
-    color: #333333;
-}
-.bodyP {
-    width: 35%;
-    margin: auto;
-    font-size: 18px;
-    color: #222222;
-    font-family: sans-serif;
-    text-align: center;
-}
-.centeredVideo {
-    width: 750px;
-    margin: auto;
-    display: block;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
