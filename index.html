@@ -11,7 +11,7 @@
         <!-- Navigation Bar -->
         <div class="navBarDiv">
             <ul>
-                <img class="headerLogo" src="logo.png">
+                <li><a href="index.html"><img class="headerLogo" src="logo.png"></a></li>
                 <li><a href="#">Home</a></li>
                 <div class="dropDown">
                     <li><a href="#">Full Game Tutorials</a></li>
@@ -29,6 +29,7 @@
                         <a href="#">Link 3</a>
                     </div>
                 </div>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <!-- Title Page Caption -->
@@ -41,5 +42,24 @@
         <h1 class="bodyH1"><span class="coloredLeftLine">|</span>Getting Started</h1>
         <p class="bodyP">Before you can make games, you must get Gamemaker Studio and get everything setup.  You'll also need to learn some of the basics of Gamemaker as well.  Here's a short video to get you started.</p>
         <iframe class="centeredVideo" width="560" height="315" src="https://www.youtube.com/embed/3rafYHSX9Bs" frameborder="0" allowfullscreen></iframe>
+        
+        <form class="contactForm" action="MAILTO:tucker.sandin@gmail.com" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name: " />
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="Email: " />
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="Message:"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
     </body>
 </html>
