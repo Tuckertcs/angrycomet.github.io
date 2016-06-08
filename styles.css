@@ -80,6 +80,7 @@ html, body {
 }
 .dropDownContent a:hover {
     background-color: #333333;
+    color: white;
 }
 .dropDown:hover .dropDownContent {
     margin-top: 13px;
