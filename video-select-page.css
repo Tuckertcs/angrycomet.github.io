@@ -1,0 +1,28 @@
+.videoSelect {
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 250px;
+}
+.videoSelect:hover {
+    border: 1px solid #0094FF;
+}
+.videoSelect img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 20px;
+    text-align: center;
+}
+.desc a {
+    color: #0094FF;
+    text-decoration: none;
+}
+.desc a:hover {
+    color: #004A7F;
+}
+.videoContainer {
+    width: 75%;
+    margin: auto;
+}

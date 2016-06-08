@@ -1,0 +1,19 @@
+/* --------------- Home Page --------------- */
+
+.homePageCaption {
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    border-left: 5px solid #0094FF;
+    background-color: rgba(17, 17, 17, .75);
+    color: white;
+    padding: 25px;
+}
+.homePageCaption h2 {
+    font-family: monospace;
+}
+.homePageCaption p {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
