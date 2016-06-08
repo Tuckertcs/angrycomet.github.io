@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Angry Comet</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact-form.css">
+        <link rel="stylesheet" href="homepage.css">
     </head>
     <body>
         <!-- Navigation Bar -->
@@ -30,6 +32,3 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        <!--Body -->
-    </body>
-</html>
