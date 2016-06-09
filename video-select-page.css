@@ -26,3 +26,25 @@
     width: 75%;
     margin: auto;
 }
+
+/* ------------- Single Video Page ---------------*/
+
+.mainVideo {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    background-color: #222222;
+}
+.mainVideo iframe {
+    width: 896px;
+    height: 504px;
+    margin: 0px;
+    border-left: 5px solid #0094FF;
+    border-right: 5px solid #0094FF;
+}
+.otherVideos {
+    width: 100%;
+    padding: 25px;
+    background-color: #333333;
+    overflow-x: scroll;
+}
